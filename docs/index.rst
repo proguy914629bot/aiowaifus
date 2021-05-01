@@ -9,7 +9,7 @@ Welcome to aiowaifus's documentation!
 .. toctree::
    :maxdepth: 1
 
-   quickstart
+   intro
    api
    list_of_categories
 

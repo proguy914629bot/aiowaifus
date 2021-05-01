@@ -1,7 +1,7 @@
-.. _quickstart:
+.. _intro:
 
-Quickstart
-==========
+Introduction
+============
 Welcome to the aiowaifus' documentation.
 
 Basic Concepts
