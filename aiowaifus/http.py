@@ -39,10 +39,6 @@ log = logging.getLogger(__name__)
 
 
 class HTTPClient:
-    '''
-    [MAKE DOCSTRING LATER]
-    '''
-
     BASE_URL = 'https://waifu.pics/api'
 
     POSSIBLE_ENDPOINTS = {
@@ -73,7 +69,7 @@ class HTTPClient:
     def __init__(self, loop, connector):
         self.client = aiohttp.ClientSession(connector=connector, loop=loop)
 
-    async def request(self, method: str, path: str, body: dict = {}):
+    async def request(self, method, path, body={}):
         url = self.BASE_URL + path
         
         async with self.client.request(method, url, json=body) as r:
