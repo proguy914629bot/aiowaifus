@@ -19,6 +19,7 @@ from collections import namedtuple
 
 from .client import WaifuClient
 from .enums import ImageType
+from .errors import *
 
 
 VersionInfo = namedtuple('VersionInfo', 'major minor micro releaselevel serial')

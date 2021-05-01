@@ -73,6 +73,13 @@ class WaifuClient:
         -------
         :class:`str`
             The requested image URL.
+
+        Raises
+        ------
+        :exc:`.InvalidImageType`
+            If a invalid image type is provided.
+        :exc:`.InvalidCategory`
+            If a invalid image category is provided.
         '''
         self._parse_arguments(category, image_type)
 
