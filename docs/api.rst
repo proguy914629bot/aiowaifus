@@ -11,8 +11,6 @@ Clients
 
 WaifuClient
 ~~~~~~~~~~~
-.. attributetable:: WaifuClient
-
 .. autoclass:: WaifuClient
     :members:
 
