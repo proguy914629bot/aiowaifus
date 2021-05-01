@@ -2,7 +2,7 @@
 
 Quickstart
 ==========
-Welcome to the aiowaifus's documentation.
+Welcome to the aiowaifus' documentation.
 
 Basic Concepts
 --------------
