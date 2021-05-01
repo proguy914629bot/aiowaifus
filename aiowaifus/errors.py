@@ -23,12 +23,19 @@ SOFTWARE.
 '''
 
 class WaifuError(Exception):
+    '''Base exception class for aiowaifus.'''
     pass
 
 
 class InvalidImageType(WaifuError):
-    pass
+    '''Exception that's thrown when an invalid image type is given.'''
+
+    def __init__(self):
+        super().__init__('Invalid image type provided.')
 
 
 class InvalidCategory(WaifuError):
-    pass
+    '''Exception that's thrown when an invalid image category is given.'''
+    
+    def __init__(self):
+        super().__init__('Invalid image category provided.')
