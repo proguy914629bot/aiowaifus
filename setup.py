@@ -28,7 +28,8 @@ setup(name='aiowaifus',
       author='kyomi',
       url='https://github.com/soukyomi/aiowaifus',
       project_urls={
-          'Issue tracker': 'https://github.com/soukyomi/aiowaifus/issues'
+          'Issue tracker': 'https://github.com/soukyomi/aiowaifus/issues',
+          'Documentation': 'https://aiowaifus.readthedocs.io/en/latest/'
       },
       version=version,
       packages=['aiowaifus'],
@@ -38,5 +39,18 @@ setup(name='aiowaifus',
       long_description_content_type='text/markdown',
       install_requires=requirements,
       extras_require=extras_require,
-      python_requires='>=3.8.0'
+      python_requires='>=3.6.0',
+      classifiers=[
+          'Development Status :: 5 - Production/Stable',
+          'License :: OSI Approved :: MIT License',
+          'Intended Audience :: Developers',
+          'Natural Language :: English',
+          'Operating System :: OS Independent',
+          'Programming Language :: Python :: 3.8',
+          'Programming Language :: Python :: 3.9',
+          'Topic :: Internet',
+          'Topic :: Software Development :: Libraries',
+          'Topic :: Software Development :: Libraries :: Python Modules',
+          'Topic :: Utilities',
+      ]
 )
