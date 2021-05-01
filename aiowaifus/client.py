@@ -24,6 +24,7 @@ SOFTWARE.
 
 import asyncio
 import aiohttp
+from typing import List
 
 from .http import HTTPClient
 from .enums import ImageType
@@ -80,7 +81,7 @@ class WaifuClient:
 
         return r['url']
 
-    async def fetch_many_images(self, category: str, *, image_type: ImageType, exclude: list[str] = []):
+    async def fetch_many_images(self, category: str, *, image_type: ImageType, exclude: List[str] = []):
         '''Fetches 30 unique images from Waifu.pics.
 
         Parameters
@@ -95,7 +96,7 @@ class WaifuClient:
 
         Returns
         -------
-        list[:class:`str`]
+        List[:class:`str`]
             The requested list of images.
         '''
         self._parse_arguments(category, image_type)
