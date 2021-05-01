@@ -31,7 +31,7 @@ __all__ = ('ImageType',)
 class ImageType(Enum):
     '''Represents a type of a image. It can be ``sfw`` or ``nsfw``.'''
 
-    #: Represents the set of images :ref:`SFW <list_of_categories>`.
+    #: Represents the set of images :ref:`SFW <sfw>`.
     sfw  = 'sfw'
-    #: Represents the set of images :ref:`NSFW <list_of_categories>`.
+    #: Represents the set of images :ref:`NSFW <nsfw>`.
     nsfw = 'nsfw'

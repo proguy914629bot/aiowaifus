@@ -3,6 +3,8 @@
 List of Categories
 ==================
 
+.. _sfw:
+
 SFW (Safe For Work)
 ~~~~~~~~~~~~~~~~~~~
 
@@ -23,6 +25,7 @@ SFW (Safe For Work)
 - yeet
 - blush
 
+.. _nsfw:
 
 NSFW (Not Safe For Work)
 ~~~~~~~~~~~~~~~~~~~~~~~~
