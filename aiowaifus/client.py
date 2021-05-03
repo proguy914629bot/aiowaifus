@@ -84,7 +84,7 @@ class WaifuClient:
         self._parse_arguments(category, image_type)
 
         path = f'/{image_type.value}/{category}'
-        r = await self.http.request('GET', path)
+        r = await self.http.get(path)
 
         return r['url']
 
